@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Messenger App Mockup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Dialog List Screen -->
+  <div class="screen" id="dialog-list">
+    <header>
+      <h2>Dialogs</h2>
+      <button class="new-message">New Message</button>
+    </header>
+    <div class="dialog-list">
+      <div class="dialog-item">
+        <img src="avatar1.png" alt="Avatar" class="avatar">
+        <div class="dialog-info">
+          <span class="name">John Doe</span>
+          <span class="message-preview">Hey! How are you?</span>
+        </div>
+      </div>
+      <div class="dialog-item">
+        <img src="avatar2.png" alt="Avatar" class="avatar">
+        <div class="dialog-info">
+          <span class="name">Jane Smith</span>
+          <span class="message-preview">Let's meet at 5 PM!</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chat Screen -->
+  <div class="screen" id="chat">
+    <header>
+      <img src="avatar1.png" alt="Avatar" class="avatar">
+      <span class="name">John Doe</span>
+      <button class="menu-button">⋮</button>
+    </header>
+    <div class="chat-messages">
+      <div class="message incoming">Hey! How are you?</div>
+      <div class="message outgoing">I'm good, thanks! How about you?</div>
+    </div>
+    <div class="message-input">
+      <input type="text" placeholder="Type a message...">
+      <button class="send-button">Send</button>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f0f0f0;
+    color: #333;
+    background-image: url('aset/bgnike.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: -100;
+    
+  }
+  
+  .navbar {
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    display:flex;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-left: 20px;
+    position: relative;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+  }
+  
+  .menu .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu {.
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+  }
+  
+  .dropdown-menu li {
+    margin: 0;
+  }
+  
+  .dropdown-menu a {
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #555;
+  }
+  
+  .hero {
+    height: 80vh;
+    background-image: url('aset/nikebg.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity:70%;
+    padding: 40px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #ff5733;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .cta-button:hover {
+    background-color: #e64a19;
+  }
+  
