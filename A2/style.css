@@ -50,13 +50,14 @@
     display: block;
   }
   
-  .dropdown-menu {.
+  .dropdown-menu {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
     background-color: #444;
     list-style: none;
+    z-index:1000;
   }
   
   .dropdown-menu li {
